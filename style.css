@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+:root {
+  --primary-color: #084440;
+  --secondary-color: rgb(227, 222, 222);
+}
+
+/* some padding is given by browser only so make it zero */
+.low-footer {
+  padding-inline-start: 0px;
+}
+
+home-link {
+  text-decoration: none;
+  font: 30px;
+}
+/* 
+  /* Fresh Start */
+
+.top-nav {
+  height: 100px;
+  padding: 5px;
+  /* margin: 0 35px; */
+  margin-bottom: 30px;
+  /* border-bottom-left-radius: 15px; */
+  /* border-bottom-right-radius: 15px; */
+  width: auto;
+  background-color: var(--primary-color);
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+}
+
+.home-link {
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  margin-top: 25px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.nav-link {
+  color: white;
+  padding: 3px;
+  margin: 5px;
+  font-size: 22px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.small-list {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+/* question container */
+
+.question-container {
+  text-align: center;
+  margin: 30px 15px;
+  font-size: 20px;
+}
+
+.triangle-quiz,
+.hypo-heading {
+  text-align: center;
+  font-size: 35px;
+  margin: 25px 15px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.button-quiz {
+  display: block;
+  padding: 8px;
+  margin: 0 auto;
+  font-weight: bold;
+  color: white;
+  background-color: var(--primary-color);
+  border-radius: 4px;
+}
+
+form p {
+  margin: 10px;
+}
+
+#output {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+  padding: 5px 0;
+}
+
+/* hypo input */
+
+.hypo-label {
+  display: block;
+  margin: 20px;
+  text-align: center;
+  color: var(--primary-color);
+  font-size: 24px;
+}
+
+.hypo-input {
+  display: block;
+  margin: 15px auto;
+  border-color: var(--primary-color);
+  border-radius: 4px;
+  height: 30px;
+  /* width: 30%; */
+}
+
+.hypo-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.button-hypo {
+  display: block;
+  margin: 0 auto;
+
+  width: auto;
+  font-weight: bold;
+  background-color: var(--primary-color);
+  color: white;
+
+  padding: 7px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.output-hypo {
+  color: var(--primary-color);
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* footer sytle */
+
+.social-div {
+  height: 100px;
+  text-align: center;
+}
+
+.social-div p {
+  /* color: white; */
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 0px;
+}
+
+.copyright {
+  font-size: 15px;
+}
+
+footer {
+  height: 150px;
+  padding: 10px;
+  margin: 0 35px;
+  margin-top: 30px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 10px 0;
+}
+
+.link {
+  padding: 10px;
+}
+
+.img-last {
+  border-radius: 20px;
+}
+
+/* Projects style  */
+
+.project-ul {
+  list-style: none;
+}
