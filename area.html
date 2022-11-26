@@ -5,25 +5,101 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Area</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Calculate Area of a triangle</h1>
+    <nav class="top-nav" id="nav-id">
+      <div class="home" id="divhome">
+        <a class="home-link" href="index.html">Fun With Triangles</a>
+      </div>
+      <ul class="nav-list" id="nav-list-id">
+        <li class="small-list, home-list" id="home-list">
+          <a class="nav-link" href="quiz.html">Quiz</a>
+        </li>
+        <li class="small-list, projects-list" id="projects-list">
+          <a class="nav-link" href="isTriangle.html">isTriangle</a>
+        </li>
+        <li class="small-list, blogs-list" id="blogs-list">
+          <a class="nav-link" href="area.html">Area</a>
+        </li>
+        <li class="small-list" id="blogs-list">
+          <a class="nav-link" href="hypotenuse.html">Hypotenuse</a>
+        </li>
+      </ul>
+    </nav>
+
+    <h1 class="area-heading">Calculate Area of a triangle</h1>
     <form id="form-area">
-      <label class="input" for="first-side">
+      <label class="input area-label" for="first-side">
         <p>Enter first side</p>
-        <input class="input-text" type="number" id="first-side" />
+        <input class="input-text area-input" type="number" id="first-side" />
       </label>
-      <label class="input" for="second-side">
+      <label class="input area-label" for="second-side">
         <p>Enter second side</p>
-        <input class="input-text" type="number" id="second-side" />
+        <input class="input-text area-input" type="number" id="second-side" />
       </label>
-      <label class="input" for="third-side">
+      <label class="input area-label" for="third-side">
         <p>Enter third side</p>
-        <input class="input-text" type="number" id="third-side" />
+        <input class="input-text area-input" type="number" id="third-side" />
       </label>
-      <button class="button" type="submit">CalculateArea</button>
+      <button class="button area-button" type="submit">CalculateArea</button>
     </form>
-    <div class="output" id="output"></div>
+    <div class="output area-output" id="output"></div>
+
+    <footer class="low-footer area-footer" id="low-footer">
+      <div class="social-div" id="social-div">
+        <p class="social-links">Social Accounts</p>
+        <ul class="social-links">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/prince-raj-a11444126/"
+              class="link"
+              ><img
+                src="/images/linkedin.jpg"
+                alt=""
+                height="40px"
+                width="40px"
+                class="img-last"
+            /></a>
+          </li>
+          <li>
+            <a href="https://github.com/prince1096" class="link">
+              <img
+                src="/images/github.png"
+                alt=""
+                height="40px"
+                width="40px"
+                class="img-last"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/codewithprinceraj/" class="link">
+              <img
+                src="/images/insta.jpg"
+                alt=""
+                height="40px"
+                width="40px"
+                class="img-last"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://twitter.com/prince101296raj?t=V8BGtUj8n-T0_QLHGNMdDg&s=09"
+              class="link"
+              ><img
+                src="/images/twitter.jpg"
+                alt=""
+                height="40px"
+                width="40px"
+                class="img-last"
+            /></a>
+          </li>
+        </ul>
+        <p class="copyright">© Prince Raj</p>
+      </div>
+    </footer>
   </body>
   <script src="area.js"></script>
 </html>

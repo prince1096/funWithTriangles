@@ -110,7 +110,8 @@ form p {
 
 /* hypo input */
 
-.hypo-label {
+.hypo-label,
+.area-label {
   display: block;
   margin: 20px;
   text-align: center;
@@ -118,7 +119,8 @@ form p {
   font-size: 24px;
 }
 
-.hypo-input {
+.hypo-input,
+.area-input {
   display: block;
   margin: 15px auto;
   border-color: var(--primary-color);
@@ -127,14 +129,16 @@ form p {
   /* width: 30%; */
 }
 
-.hypo-footer {
+.hypo-footer,
+.area-footer {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
 }
 
-.button-hypo {
+.button-hypo,
+.area-button {
   display: block;
   margin: 0 auto;
 
@@ -148,11 +152,18 @@ form p {
   font-size: 14px;
 }
 
-.output-hypo {
+.output-hypo,
+.area-output {
   color: var(--primary-color);
   margin: 10px;
   padding: 10px;
   font-size: 16px;
+}
+
+/* area Input */
+
+.area-heading {
+  text-align: center;
 }
 
 /* footer sytle */
