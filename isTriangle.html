@@ -8,16 +8,91 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Is Triangle❓</h1>
-    <label for="">angle1</label>
-    <input type="number" class="angle-input" />
-    <label for="">angle2</label>
-    <input type="number" class="angle-input" />
-    <label for="">angle3</label>
-    <input type="number" class="angle-input" />
+    <nav class="top-nav" id="nav-id">
+      <div class="home" id="divhome">
+        <a class="home-link" href="index.html">Fun With Triangles</a>
+      </div>
+      <ul class="nav-list" id="nav-list-id">
+        <li class="small-list, home-list" id="home-list">
+          <a class="nav-link" href="quiz.html">Quiz</a>
+        </li>
+        <li class="small-list, projects-list" id="projects-list">
+          <a class="nav-link" href="isTriangle.html">isTriangle</a>
+        </li>
+        <li class="small-list, blogs-list" id="blogs-list">
+          <a class="nav-link" href="area.html">Area</a>
+        </li>
+        <li class="small-list" id="blogs-list">
+          <a class="nav-link" href="hypotenuse.html">Hypotenuse</a>
+        </li>
+      </ul>
+    </nav>
 
-    <button id="is-triangle-btn">Is Triangle❓</button>
-    <div id="output"></div>
+    <h1 class="angle-heading">Is Triangle❓</h1>
+    <label for="angle1" class="angle-label">angle1</label>
+    <input type="number" id="angle1" class="angle-input angles-input" />
+    <label for="angle2" class="angle-label">angle2</label>
+    <input type="number" class="angle-input angles-input" id="angle2" />
+    <label for="angle3" class="angle-label">angle3</label>
+    <input type="number" class="angle-input angles-input" id="angle3" />
+
+    <button class="angle-button" id="is-triangle-btn">Is Triangle❓</button>
+    <div id="output" class="angle-output"></div>
+
+    <footer class="low-footer angle-footer" id="low-footer">
+      <div class="social-div" id="social-div">
+        <p class="social-links">Social Accounts</p>
+        <ul class="social-links">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/prince-raj-a11444126/"
+              class="link"
+              ><img
+                src="/images/linkedin.jpg"
+                alt=""
+                height="40px"
+                width="40px"
+                class="img-last"
+            /></a>
+          </li>
+          <li>
+            <a href="https://github.com/prince1096" class="link">
+              <img
+                src="/images/github.png"
+                alt=""
+                height="40px"
+                width="40px"
+                class="img-last"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/codewithprinceraj/" class="link">
+              <img
+                src="/images/insta.jpg"
+                alt=""
+                height="40px"
+                width="40px"
+                class="img-last"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://twitter.com/prince101296raj?t=V8BGtUj8n-T0_QLHGNMdDg&s=09"
+              class="link"
+              ><img
+                src="/images/twitter.jpg"
+                alt=""
+                height="40px"
+                width="40px"
+                class="img-last"
+            /></a>
+          </li>
+        </ul>
+        <p class="copyright">© Prince Raj</p>
+      </div>
+    </footer>
   </body>
   <script src="isTriangle.js"></script>
 </html>
