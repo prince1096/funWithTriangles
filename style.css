@@ -120,6 +120,10 @@ form p {
   font-size: 24px;
 }
 
+.angle-label {
+  margin: 15px;
+}
+
 .hypo-input,
 .area-input,
 .angles-input {
