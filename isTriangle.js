@@ -9,11 +9,19 @@ function isTriangle() {
     Number(inputs[2].value)
   );
 
-  if (sumOfAngles === 180) {
-    console.log("It's a Triangle");
-    outputEl.innerText = "It's a Triangle";
+  let angle1 = Number(inputs[0].value);
+  let angle2 = Number(inputs[1].value);
+  let angle3 = Number(inputs[2].value);
+
+  if (angle1 > 0 && angle2 > 0 && angle3 > 0) {
+    if (sumOfAngles === 180) {
+      console.log("It's a Triangle");
+      outputEl.innerText = "It's a Triangle";
+    } else {
+      console.log("NOT a Triangle");
+      outputEl.innerText = "NOT a Triangle";
+    }
   } else {
-    console.log("NOT a Triangle");
     outputEl.innerText = "NOT a Triangle";
   }
 }
