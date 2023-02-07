@@ -15,6 +15,7 @@ function calculateScore() {
   let index = 0;
   const formResults = new FormData(quizForm);
   console.log(formResults);
+  console.log(typeof formResults);
 
   for (const [key, value] of formResults) {
     console.log(key + " " + value);
